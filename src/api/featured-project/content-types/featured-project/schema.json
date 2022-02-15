@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_projects",
+  "info": {
+    "singularName": "featured-project",
+    "pluralName": "featured-projects",
+    "displayName": "FeaturedProject",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "githubLink": {
+      "type": "text"
+    },
+    "deployLink": {
+      "type": "text"
+    }
+  }
+}

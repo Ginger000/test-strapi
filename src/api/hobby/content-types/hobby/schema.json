@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hobbies",
+  "info": {
+    "singularName": "hobby",
+    "pluralName": "hobbies",
+    "displayName": "Hobby"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_1": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "name_2": {
+      "type": "string"
+    },
+    "name_3": {
+      "type": "string"
+    }
+  }
+}
