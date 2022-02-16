@@ -5,3 +5,5 @@ https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/
 https://stackoverflow.com/questions/63992130/how-to-change-strapi-port-number-1337-to-other-number
 
 currently hard to implement relation in strapi
+
+https://forum.strapi.io/t/strapi-v4-broken-image-even-when-the-images-link-works-cloudinary/14143/3
