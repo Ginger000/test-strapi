@@ -1,21 +1,17 @@
-module.exports = ({ env }) => [
-    'strapi::errors',
-    {
-      name: 'strapi::security',
-      config: {
-        contentSecurityPolicy: {
-          directives: {
-            'script-src': ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net'],
-            'img-src': ["'self'", 'data:', 'cdn.jsdelivr.net', 'strapi.io', `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`],
-          },
-        }
+// ./config/plugins.js
+
+module.exports = ({ env }) => ({
+  upload: {
+    config: {
+      provider: "aws-s3",
+      providerOptions: {
+        accessKeyId: env("AWS_ACCESS_KEY_ID"),
+        secretAccessKey: env("AWS_ACCESS_SECRET"),
+        region: env("AWS_REGION"),
+        params: {
+          Bucket: env("AWS_BUCKET"),
+        },
       },
     },
-    'strapi::cors',
-    'strapi::poweredBy',
-    'strapi::logger',
-    'strapi::query',
-    'strapi::body',
-    'strapi::favicon',
-    'strapi::public',
-  ];
+  },
+});
