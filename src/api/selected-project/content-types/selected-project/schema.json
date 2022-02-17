@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "selected_projects",
+  "info": {
+    "singularName": "selected-project",
+    "pluralName": "selected-projects",
+    "displayName": "SelectedProject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "text"
+    },
+    "deployLink": {
+      "type": "text"
+    },
+    "internalLink": {
+      "type": "text"
+    }
+  }
+}
