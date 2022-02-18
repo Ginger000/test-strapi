@@ -4,7 +4,8 @@
   "info": {
     "singularName": "selected-project",
     "pluralName": "selected-projects",
-    "displayName": "SelectedProject"
+    "displayName": "SelectedProject",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,9 +14,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "techStack": {
       "type": "string"
@@ -28,6 +26,9 @@
     },
     "internalLink": {
       "type": "text"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
