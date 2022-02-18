@@ -32,6 +32,12 @@
     },
     "course": {
       "type": "richtext"
+    },
+    "year": {
+      "type": "string"
+    },
+    "madeAt": {
+      "type": "string"
     }
   }
 }
