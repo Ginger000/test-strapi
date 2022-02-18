@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentor_projects",
+  "info": {
+    "singularName": "mentor-project",
+    "pluralName": "mentor-projects",
+    "displayName": "MentorProject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mentorLink": {
+      "type": "text"
+    },
+    "githubLink": {
+      "type": "text"
+    },
+    "deployLink": {
+      "type": "text"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "practiceTime": {
+      "type": "string"
+    }
+  }
+}
