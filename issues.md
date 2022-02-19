@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=k_MwTnHpUGg
 
 https://forum.strapi.io/t/cloudinary-upload-configuration-help/717/3
 
+
+https://forum.strapi.io/t/ordering-entry-inside-list-of-content-type-back-office-strapi/2444
+
+

@@ -38,6 +38,9 @@
     },
     "madeAt": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
