@@ -39,6 +39,9 @@
     },
     "year": {
       "type": "string"
+    },
+    "madeAt": {
+      "type": "string"
     }
   }
 }
